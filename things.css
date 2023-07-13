@@ -1,0 +1,19 @@
+button{font-size: xxx-large;margin-left: 4%; color:black; color: #fff;padding: 8px 40px;border-radius: 9px;background: #7d2ae8;transition: all 0.2s  ease;}
+button:active{
+transform:scale(0.3)
+
+}
+
+.loader{
+    height: 200px;
+    width: 200px;
+    border: 12px solid white;
+    border-radius: 50%;
+    border-right-color: #4070f4;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
